@@ -38,13 +38,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
-         <plugin>
-	         <artifactId>maven-war-plugin</artifactId>
-		<version>3.2.1</version>
-		<configuration>
-			<warSourceDirectory>webapp/src/main/webapp/WEB-INF/web.xml</warSourceDirectory>
-		</configuration>
-	</plugin>
+        <plugin>     <artifactId>maven-war-plugin</artifactId>     <version>3.2.3</version> </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
